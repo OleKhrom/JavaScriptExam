@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Java Script Control</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-mob.css" media="only screen and (max-width: 768px)">
+    <link rel="stylesheet" href="style-tab.css" media="only screen and (min-width: 769px) and (max-width: 1024px)">
+</head>
+<body>
+<div class="container">
+    <h1>Test</h1>
+    <div class="input-container">
+        <label for="pairInput">Name/Value Pair</label>
+        <div class="input-row">
+            <input type="text" id="pairInput" placeholder="Name=Value">
+            <button id="addButton">Add</button>
+        </div>
+    </div>
+    <div class="list-container">
+        <label for="pairList">Name/Value Pair List</label>
+        <div class="list-row">
+            <div id="pairList" class="custom-list"></div>
+            <div class="button-column">
+                <button id="sortByName">Sort by Name</button>
+                <button id="sortByValue">Sort by Value</button>
+                <button id="deleteButton">Delete</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="jse.js"></script>
+</body>
+</html>

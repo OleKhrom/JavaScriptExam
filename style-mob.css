@@ -1,0 +1,61 @@
+@media only screen and (max-width: 768px) {
+    body {
+        padding-right: 38px;
+        padding-top: 10px;
+    }
+
+    .container {
+        width: 100%;
+        height: 600px;
+        gap: 18px;
+        padding-right: 12px;
+    }
+
+    .input-container {
+        width: 100%;
+    }
+
+    .input-row {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .input-row input {
+        width: 100%;
+    }
+
+    .input-row button {
+        width: 100%;
+        padding: 8px;
+    }
+
+    .list-container {
+        width: 100%;
+        gap: 15px;
+    }
+
+    .list-row {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .custom-list {
+        height: 300px;
+        margin-right: 10px;
+    }
+
+    .button-column {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .button-column button {
+        width: 100%;
+        padding: 8px;
+    }
+
+    .button-column #deleteButton {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
